@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <title>정보통신정책연구원 지능정보사회 이용자정책 아카이브</title>
+    <meta charset="utf-8">
+    <meta name="author" content="정보통신정책연구원 지능정보사회 이용자정책 아카이브">
+    <meta name="keywords" content="정보통신정책연구원 지능정보사회 이용자정책 아카이브">
+    <meta name="description" lang="ko" content="정보통신정책연구원 지능정보사회 이용자정책 아카이브">
+    <meta name="copyright" content="(27872) 충청북도 진천군 덕산읍 정통로 18 정보통신정책연구원">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/sub.css">
+    <link rel="stylesheet" type="text/css" href="js/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css">
+    <!--JS-->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/layout.js"></script>
+    <script src="js/slick/slick.js"></script>
+</head>
+
+<body>
+
+    <div class="wrap">
+        <!-- header : top_navi  -->
+        <header id="header">
+            <div class="center">
+                <nav class="navi">
+                    <h1>
+                        <a href="main.html" class="top_logo"><img src="img/sub/logo.png" alt="헤더로고"></a>
+                    </h1>
+                    <ul>
+                        <li class="top_navi_li">
+                            <a href="user_news_list.html" class="top_navi">
+                                <div><span class="top_navi_span">자료실</span></div>
+                            </a>
+                            <ul class="sub_navi">
+                                <li><a href="user_news_list.html" class="sub_navi_a">이용자뉴스</a></li>
+                                <li><a href="#" class="sub_navi_a">동향자료</a></li>
+                                <li><a href="#" class="sub_navi_a">발간물</a></li>
+                            </ul>
+                        </li>
+                        <li class="top_navi_li">
+                            <a href="#" class="top_navi">
+                                <div><span class="top_navi_span">국민참여함</span></div>
+                            </a>
+                            <ul class="sub_navi">
+                                <li><a href="#" class="sub_navi_a">토론</a></li>
+                                <li><a href="#" class="sub_navi_a">투표</a></li>
+                                <li><a href="#" class="sub_navi_a">설문</a></li>
+                            </ul>
+                        </li>
+                        <li class="top_navi_li">
+                            <a href="#" class="top_navi">
+                                <div><span class="top_navi_span">참여소통</span></div>
+                            </a>
+                            <ul class="sub_navi">
+                                <li><a href="#" class="sub_navi_a">공지사항</a></li>
+                                <li><a href="faq.html" class="sub_navi_a">FAQ</a></li>
+                            </ul>
+                        </li>
+                        <li class="top_navi_li">
+                            <a href="intro.html" class="top_navi">
+                                <div><span class="top_navi_span">소개</span></div>
+                            </a>
+                            <ul class="sub_navi">
+                                <li><a href="intro.html" class="sub_navi_a">사업소개</a></li>
+                                <li><a href="#" class="sub_navi_a">인사말</a></li>
+                                <li><a href="#" class="sub_navi_a">이용안내</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="header_right_icon">
+                        <div class="search_btn_wrap">
+                            <a href="#" class="search f_s_0" title="검색 아이콘">검색</a>
+                            <a href="#" class="search_on f_s_0">검색아이콘 클릭</a>
+                        </div>
+                        <a href="#" class="sitemap_btn f_s_0" title="사이트맵"><span>bar</span><span>bar</span><span>bar</span></a>
+                    </div>
+
+                </nav>
+                <!--navi_end-->
+
+            </div><!-- center_end-->
+
+            <div class="gnb_bg">
+                <div class="menu_img f_s_0">메뉴배경이미지</div>
+            </div>
+            <div class="site_search">
+                <div class="center">
+                    <p class="site_tit">통합검색</p>
+                    <div class="search_box">
+                        <div class="label_hide">
+                            <label class="blank_label">검색어를 입력해주세요.</label>
+                            <input type="text" title="통합검색" class="blank_search">
+                        </div>
+                        <a href="#" class="search_icon f_s_0">통합검색버튼</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="la_pop_wrap modal" id="siteMapModal">
+                <div class="la_pop">
+                    <div class="pop_top">
+                        <h2 class="pop_top_title sur_be">사이트맵</h2>
+                        <a href="#" class="pop_close">
+                            <span class="close_bar f_s_0">bar</span>
+                            <span class="close_bar f_s_0">bar</span>
+                        </a>
+                    </div>
+                    <div class="sur_pop">
+                        <div class="sitemap_list">
+                            <ul class="site_ul">
+                                <li class="site_li">
+                                    <a href="user_news_list.html" class="menu_big">자료실</a>
+                                    <ul class="menu_sub">
+                                        <li class="menu_sub_li">
+                                            <a href="user_news_list.html" class="menu_sub_a">이용자뉴스</a>
+                                        </li>
+                                        <li class="menu_sub_li">
+                                            <a href="#" class="menu_sub_a">동향자료</a>
+                                        </li>
+                                        <li class="menu_sub_li">
+                                            <a href="#" class="menu_sub_a">발간물</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="site_li">
+                                    <a href="#" class="menu_big">국민참여함</a>
+                                    <ul class="menu_sub">
+                                        <li class="menu_sub_li">
+                                            <a href="#" class="menu_sub_a">토론</a>
+                                        </li>
+                                        <li class="menu_sub_li">
+                                            <a href="#" class="menu_sub_a">투표</a>
+                                        </li>
+                                        <li class="menu_sub_li">
+                                            <a href="#" class="menu_sub_a">설문</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="site_li">
+                                    <a href="#" class="menu_big">참여소통</a>
+                                    <ul class="menu_sub">
+                                        <li class="menu_sub_li">
+                                            <a href="#" class="menu_sub_a">공지사항</a>
+                                        </li>
+                                        <li class="menu_sub_li">
+                                            <a href="faq.html" class="menu_sub_a">FAQ</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="site_li">
+                                    <a href="intro.html" class="menu_big">소개</a>
+                                    <ul class="menu_sub">
+                                        <li class="menu_sub_li">
+                                            <a href="intro.html" class="menu_sub_a">사업소개</a>
+                                        </li>
+                                        <li class="menu_sub_li">
+                                            <a href="#" class="menu_sub_a">인사말</a>
+                                        </li>
+                                        <li class="menu_sub_li">
+                                            <a href="#" class="menu_sub_a">이용안내</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--sur_pop-end-->
+                </div>
+            </div>
+        </header>
+
+        <!-- section : contents-->
+        <section id="sub_section">
+            <h2 class="f_s_0">서브페이지 콘텐츠부분입니다.</h2>
+
+            <div class="contents">
+                <div class="cont_box">
+                    <aside id="aside">
+                        <div class="aside_top">
+                            <span>자료실</span>
+                        </div>
+                        <ul class="asdie_wrap">
+                            <li class="aside_li tab_on">
+                                <a href="user_news_list.html" class="aside_item">이용자뉴스</a>
+                            </li>
+                            <li class="aside_li">
+                                <a href="#" class="aside_item">동향자료</a>
+                            </li>
+                            <li class="aside_li">
+                                <a href="#" class="aside_item">발간물</a>
+                            </li>
+                        </ul>
+                    </aside>
+                    <div class="v_line"></div>
+                    <div class="contents_section">
+                        <div class="in_content">
+                            <div class="history">
+                                <div class="in_history">
+                                    <a href="#" class="history_home f_s_0">히스토리 홈버튼</a>
+                                    <div class="history_arrow">
+                                        <img src="img/sub/icon_history_arrow.png" alt="히스토리 화살표" />
+                                    </div>
+                                    <a href="#" class="history_text">자료실</a>
+                                    <div class="history_arrow">
+                                        <img src="img/sub/icon_history_arrow.png" alt="히스토리 화살표" />
+                                    </div>
+                                    <a href="#" class="history_text">이용자뉴스</a>
+                                </div>
+                                <div class="share">
+                                    <a href="#" class="icon_share history_text"><span class="share_txt">공유하기</span></a>
+                                </div>
+                            </div>
+                            <div class="cont_title">
+                                <h3>&nbsp;</h3>
+                            </div>
+                            <div class="cont_search_wrap publish_search">
+                                <div class="publish_txt">
+                                    <p class="publish_search_text">현재등록된 자료는 <span class="txt_point">546</span>건입니다.</p>
+                                </div>
+                                <div class="cont_search">
+                                    <div class="search_wrap f_l">
+                                        <select class="search_selec_2" title="검색조건">
+                                            <option class="selec_op">전체</option>
+                                            <option class="selec_op">제목</option>
+                                            <option class="selec_op">내용</option>
+                                        </select>
+                                    </div>
+                                    <div class="search_box">
+                                        <input type="text" title="검색어입력창">
+                                        <a href="#" class="search_icon f_s_0">검색</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="list_body">
+                                <table class="list_table">
+                                    <caption>게시판</caption>
+                                    <colgroup>
+                                        <col style="width:10%">
+                                        <col style="width:65%">
+                                        <col style="width:15%">
+                                        <col style="width:10%">
+                                    </colgroup>
+                                    <thead class="list_hd">
+                                        <tr class="list_tr">
+                                            <th scope="col" class="list_th">번호</th>
+                                            <th scope="col" class="list_th">제목</th>
+                                            <th scope="col" class="list_th">등록일</th>
+                                            <th scope="col" class="list_th">첨부파일</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody class="list_bd">
+                                        <!-- 공지사항 tr은 list_notice 클래스명이 들어가도록 해주세요!-->
+                                        <tr class="list_tr list_notice">
+                                            <td class="list_td">공지</td>
+                                            <td class="list_td subject"><a href="#" class="subj_a">2023 이용자 학술대회 자료집 공개</a>
+                                            </td>
+                                            <td class="list_td">2023.05.13</td>
+                                            <td class="list_td"></td>
+                                        </tr>
+                                        <tr class="list_tr">
+                                            <td class="list_td">546</td>
+                                            <td class="list_td subject"><a href="user_news_detail.html" class="subj_a">2023년 13차년도 이용자 조사 실시 안내</a>
+                                                <div class="list_new_icon">
+                                                    <img src="img/sub/icon_list_new.png" alt="리스트 뉴아이콘" />
+                                                </div>
+                                            </td>
+                                            <td class="list_td">2023.10.08</td>
+                                            <td class="list_td">
+                                                <div class="attach_img">
+                                                    <img src="img/sub/icon_download.png" alt="첨부파일 아이콘" />
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="list_tr">
+                                            <td class="list_td">545</td>
+                                            <td class="list_td subject"><a href="#" class="subj_a"> 「2023 이용자 학술대회 및 대학원생 논문경진대회」연구계획서 심사 결과 발표 안내</a>
+                                            </td>
+                                            <td class="list_td">2023.09.28</td>
+                                            <td class="list_td">
+                                                <div class="attach_img">
+                                                    <img src="img/sub/icon_download.png" alt="첨부파일 아이콘" />
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="list_tr">
+                                            <td class="list_td">544</td>
+                                            <td class="list_td subject"><a href="#" class="subj_a"> 2023 이용자 데이터 설명 자료 공개</a>
+                                            </td>
+                                            <td class="list_td">2023.09.23</td>
+                                            <td class="list_td">
+                                                <div class="attach_img">
+                                                    <img src="img/sub/icon_download.png" alt="첨부파일 아이콘" />
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="list_tr">
+                                            <td class="list_td">543</td>
+                                            <td class="list_td subject"><a href="#" class="subj_a">2023년 이용자 조사 참여 패널 대상 경품추첨 이벤트 결과 공지</a></td>
+                                            <td class="list_td">2023.09.16</td>
+                                            <td class="list_td">
+                                                <div class="attach_img">
+                                                    <img src="img/sub/icon_download.png" alt="첨부파일 아이콘" />
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="list_tr">
+                                            <td class="list_td">542</td>
+                                            <td class="list_td subject"><a href="#" class="subj_a">12차년도 이용자 조사수행기관 변경 안내</a></td>
+                                            <td class="list_td">2023.09.08</td>
+                                            <td class="list_td">
+                                                <div class="attach_img">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="list_tr">
+                                            <td class="list_td">541</td>
+                                            <td class="list_td subject">
+                                                <a href="#" class="subj_a">2023년 이용자 학술대회 개최(9.14)</a>
+                                            </td>
+                                            <td class="list_td">2023.09.08</td>
+                                            <td class="list_td">
+                                                <div class="attach_img">
+                                                    <img src="img/sub/icon_download.png" alt="첨부파일 아이콘" />
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="list_tr">
+                                            <td class="list_td">540</td>
+                                            <td class="list_td subject">
+                                                <a href="#" class="subj_a">2023년 이용자 데이터설명회 발표자료집</a>
+                                            </td>
+                                            <td class="list_td">2023.08.28</td>
+                                            <td class="list_td">
+                                                <div class="attach_img">
+                                                    <img src="img/sub/icon_download.png" alt="첨부파일 아이콘" />
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="list_tr">
+                                            <td class="list_td">539</td>
+                                            <td class="list_td subject">
+                                                <a href="#" class="subj_a">2023년 제 1호 이용자 소식지</a>
+                                            </td>
+                                            <td class="list_td">2023.08.27</td>
+                                            <td class="list_td">
+                                                <div class="attach_img">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="list_tr">
+                                            <td class="list_td">538</td>
+                                            <td class="list_td subject">
+                                                <a href="#" class="subj_a">이용자 조사자료 연구계획서</a>
+                                            </td>
+                                            <td class="list_td">2023.08.14</td>
+                                            <td class="list_td">
+                                                <div class="attach_img">
+                                                    <img src="img/sub/icon_download.png" alt="첨부파일 아이콘" />
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="list_tr">
+                                            <td class="list_td">537</td>
+                                            <td class="list_td subject"><a href="#" class="subj_a">2023년 이용자 데이터 설명회 참가 신청 안내(~10.7일 까지)</a></td>
+                                            <td class="list_td">2023.08.14</td>
+                                            <td class="list_td">
+                                                <div class="attach_img">
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                            <div class="paging">
+                                <ul class="page_btn">
+                                    <li><a href="#" class="page_first f_s_0">처음으로</a></li>
+                                    <li><a href="#" class="page_left f_s_0">페이지 왼쪽이동</a></li>
+
+                                    <li class="page_on"><a href="#" class="page_num">1</a></li>
+                                    <li><a href="#" class="page_num">2</a></li>
+                                    <li><a href="#" class="page_num">3</a></li>
+                                    <li><a href="#" class="page_num">4</a></li>
+                                    <li><a href="#" class="page_num">5</a></li>
+
+                                    <li><a href="#" class="page_right f_s_0">페이지 오른쪽이동</a></li>
+                                    <li><a href="#" class="page_last f_s_0">끝으로</a></li>
+                                </ul>
+                            </div>
+                            <!--paging-end-->
+                        </div>
+                        <!--in_content-end-->
+                    </div>
+                    <!--contents_section-end-->
+                </div>
+                <!--cont_box-end-->
+            </div>
+            <!--cntents-end-->
+        </section>
+
+
+        <!-- footer : banner, copyright -->
+        <footer id="footer">
+            <div class="footer_banner">
+                <div class="center">
+                    <p>배너모음</p>
+                    <div class="f_b_btn">
+                        <a href="#" title="일시정지" class="f_b_btn_stop f_s_0">일시정지</a>
+                        <a href="#" title="재생" class="f_b_btn_play f_s_0">재생</a>
+                    </div>
+                    <div class="f_b_wrap">
+                        <div class="f_b_slide">
+                            <div class="f_b_item">
+                                <a href="http://naver.com" target="_blank">네이버</a>
+                            </div>
+                            <div class="f_b_item">
+                                <a href="http://google.com" target="_blank">구글</a>
+                            </div>
+                            <div class="f_b_item">
+                                <a href="https:/https://www.daum.net" target="_blank">다음</a>
+                            </div>
+                            <div class="f_b_item">
+                                <a href="https://www.youtube.com" target="_blank">유튜브</a>
+                            </div>
+                            <div class="f_b_item">
+                                <a href="https://www.koreaisacademy.com" target="_blank">코리아IT아카데미</a>
+                            </div>
+                            <div class="f_b_item">
+                                <a href="https://www.facebook.com" target="_blank">페이스북</a>
+                            </div>
+                            <div class="f_b_item">
+                                <a href="https://www.instagram.com" target="_blank">인스타그램</a>
+                            </div>
+                            <div class="f_b_item">
+                                <a href="https://www.daejeon.go.kr/" target="_blank">대전광역시</a>
+                            </div>
+                            <div class="f_b_item">
+                                <a href="https://www.sejong.go.kr/index.jsp" target="_blank">세종특별시</a>
+                            </div>
+                            <div class="f_b_item">
+                                <a href="https://www.chungbuk.go.kr/www/index.do" target="_blank">충북도청</a>
+                            </div>
+                            <div class="f_b_item">
+                                <a href="http://www.chungnam.go.kr/main.do" target="_blank">충청남도</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--center_end-->
+            </div>
+            <!--footer_banne-end-->
+            <div class="footer_copyright">
+                <div class="center">
+                    <div class="foot_left">
+                        <a href="#"><img src="img/sub/footer_logo_1.png" alt="푸터 로고" /></a>
+                    </div>
+                    <div class="foot_right">
+                        <p>
+                            <span>(35234) 대전 서구 둔산로 52 미라클빌딩 3층 </span><span>TEL : 042-369-5890</span>
+                        </p>
+                        <span class="copy">copyright ⓒ 2015 KOREA INFORMATION TECHNOLOGY ACADEMY. ALL RIGHTS RESERVED</span>
+                    </div>
+                </div>
+                <!--center_end-->
+            </div>
+            <!--footer_copyright-end-->
+        </footer>
+    </div>
+    <!--wrap-end-->
+</body>
+
+</html>

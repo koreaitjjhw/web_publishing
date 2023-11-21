@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <title>웹 홈페이지</title>
+    <meta charset="utf-8">
+    <!--CSS-->
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="js/slick/slick.css">
+    <link rel="stylesheet" type="text/css" href="js/slick/slick-theme.css">
+    <!--JS-->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script src="js/layout.js"></script>
+    <script src="js/slick/slick.js"></script>
+</head>
+
+<body>
+
+    <div class="wrap">
+        <!-- header : top_navi  -->
+        <header id="header">
+            <div class="center">
+                <nav class="navi">
+                    <h1>
+                        <a href="main.html" class="top_logo"><img src="img/sub/logo.png" alt="헤더로고"></a>
+                    </h1>
+                    <ul>
+                        <li class="top_navi_li">
+                            <a href="user_news_list.html" class="top_navi">
+                                <div><span class="top_navi_span">자료실</span></div>
+                            </a>
+                            <ul class="sub_navi">
+                                <li><a href="user_news_list.html" class="sub_navi_a">이용자뉴스</a></li>
+                                <li><a href="#" class="sub_navi_a">동향자료</a></li>
+                                <li><a href="#" class="sub_navi_a">발간물</a></li>
+                            </ul>
+                        </li>
+                        <li class="top_navi_li">
+                            <a href="#" class="top_navi">
+                                <div><span class="top_navi_span">국민참여함</span></div>
+                            </a>
+                            <ul class="sub_navi">
+                                <li><a href="#" class="sub_navi_a">토론</a></li>
+                                <li><a href="#" class="sub_navi_a">투표</a></li>
+                                <li><a href="#" class="sub_navi_a">설문</a></li>
+                            </ul>
+                        </li>
+                        <li class="top_navi_li">
+                            <a href="#" class="top_navi">
+                                <div><span class="top_navi_span">참여소통</span></div>
+                            </a>
+                            <ul class="sub_navi">
+                                <li><a href="#" class="sub_navi_a">공지사항</a></li>
+                                <li><a href="faq.html" class="sub_navi_a">FAQ</a></li>
+                            </ul>
+                        </li>
+                        <li class="top_navi_li">
+                            <a href="intro.html" class="top_navi">
+                                <div><span class="top_navi_span">소개</span></div>
+                            </a>
+                            <ul class="sub_navi">
+                                <li><a href="intro.html" class="sub_navi_a">사업소개</a></li>
+                                <li><a href="#" class="sub_navi_a">인사말</a></li>
+                                <li><a href="#" class="sub_navi_a">이용안내</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <div class="header_right_icon">
+                        <div class="search_btn_wrap">
+                            <a href="#" class="search f_s_0" title="검색 아이콘">검색</a>
+                            <a href="#" class="search_on f_s_0">검색아이콘 클릭</a>
+                        </div>
+                        <a href="#" class="sitemap_btn f_s_0" title="사이트맵"><span>bar</span><span>bar</span><span>bar</span></a>
+                    </div>
+                </nav>
+                <!--navi_end-->
+            </div><!-- center_end-->
+
+            <div class="gnb_bg">
+                <div class="menu_img f_s_0">메뉴배경이미지</div>
+            </div>
+            <div class="site_search">
+                <div class="center">
+                    <p class="site_tit">통합검색</p>
+                    <div class="search_box">
+                        <div class="label_hide">
+                            <label class="blank_label">검색어를 입력해주세요.</label>
+                            <input type="text" title="통합검색" class="blank_search">
+                        </div>
+                        <a href="#" class="search_icon f_s_0">통합검색버튼</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="la_pop_wrap modal" id="siteMapModal">
+                <div class="la_pop">
+                    <div class="pop_top">
+                        <h2 class="pop_top_title sur_be">사이트맵</h2>
+                        <a href="#" class="pop_close">
+                            <span class="close_bar f_s_0">bar</span>
+                            <span class="close_bar f_s_0">bar</span>
+                        </a>
+                    </div>
+                    <div class="sur_pop">
+                        <div class="sitemap_list">
+                            <ul class="site_ul">
+                                <li class="site_li">
+                                    <a href="user_news_list.html" class="menu_big">자료실</a>
+                                    <ul class="menu_sub">
+                                        <li class="menu_sub_li">
+                                            <a href="user_news_list.html" class="menu_sub_a">이용자뉴스</a>
+                                        </li>
+                                        <li class="menu_sub_li">
+                                            <a href="#" class="menu_sub_a">동향자료</a>
+                                        </li>
+                                        <li class="menu_sub_li">
+                                            <a href="#" class="menu_sub_a">발간물</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="site_li">
+                                    <a href="#" class="menu_big">국민참여함</a>
+                                    <ul class="menu_sub">
+                                        <li class="menu_sub_li">
+                                            <a href="#" class="menu_sub_a">토론</a>
+                                        </li>
+                                        <li class="menu_sub_li">
+                                            <a href="#" class="menu_sub_a">투표</a>
+                                        </li>
+                                        <li class="menu_sub_li">
+                                            <a href="#" class="menu_sub_a">설문</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="site_li">
+                                    <a href="#" class="menu_big">참여소통</a>
+                                    <ul class="menu_sub">
+                                        <li class="menu_sub_li">
+                                            <a href="#" class="menu_sub_a">공지사항</a>
+                                        </li>
+                                        <li class="menu_sub_li">
+                                            <a href="faq.html" class="menu_sub_a">FAQ</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li class="site_li">
+                                    <a href="intro.html" class="menu_big">소개</a>
+                                    <ul class="menu_sub">
+                                        <li class="menu_sub_li">
+                                            <a href="intro.html" class="menu_sub_a">사업소개</a>
+                                        </li>
+                                        <li class="menu_sub_li">
+                                            <a href="#" class="menu_sub_a">인사말</a>
+                                        </li>
+                                        <li class="menu_sub_li">
+                                            <a href="#" class="menu_sub_a">이용안내</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!--sur_pop-end-->
+                </div>
+            </div>
+        </header>
+
+        <!-- section : contents-->
+        <section id="section">
+            <h2 class="f_s_0">메인페이지 콘텐츠부분입니다.</h2>
+            <div class="section_wrap center">
+                <div class="sec_top">
+                    <div class="sec_top_left">
+                        <div class="main_banner">
+                            <img src="img/main/banner_img.jpg" class="banner_img" title="배너이미지" />
+                            <img src="img/main/banner_img2.jpg" class="banner_img" title="배너이미지" />
+                            <img src="img/main/banner_img3.jpg" class="banner_img" title="배너이미지" />
+                        </div>
+                        <div class="banner_play_btn">
+                            <a href="#" class="play f_s_0">실행버튼</a>
+                            <a href="#" class="pause f_s_0">멈춤버튼</a>
+                        </div>
+                    </div>
+                    <div class="sec_top_right">
+                        <div class="top_rit_box">
+                            <p class="rit_box_tit"><span class="rit_box_sub">Greeting</span>인사말</p>
+                            <div class="m_btn_wrap">
+                                <a href="#" class="m_btn_base"><span class="m_btn_af">바로가기</span></a>
+                            </div>
+                        </div>
+                        <div class="top_rit_box">
+                            <p class="rit_box_tit"><span class="rit_box_sub">Instructions for use</span>이용안내</p>
+                            <div class="m_btn_wrap">
+                                <a href="#" class="m_btn_base"><span class="m_btn_af">바로가기</span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="sec_mid">
+                    <p class="sec_mid_txt">발생하는 이슈에 대해 의견을 상시 수렴할 수 있는 소통 체계 마련</p>
+                    <div class="m_btn_wrap">
+                        <a href="#" class="m_btn_base"><span class="m_btn_af">국민참여 바로가기</span></a>
+                    </div>
+                </div>
+                
+                <div class="sec_bott">
+                    <div class="sec_bot_box">
+                        <div class="bott_box_top">
+                            <p class="bott_box_tit">공지사항</p>
+                            <div class="plus_wrap">
+                                <a href="#" class="plus_btn">
+                                    <span class="plus_txt">더보기</span>
+                                    <div class="plus_bar_wrap">
+                                        <span class="bar f_s_0">bar</span>
+                                        <span class="bar f_s_0">bar</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="bott_box_bottom">
+                            <div class="date_box_wrap">
+                                <div class="date_box">
+                                    <div class="m_new_icon f_s_0">뉴아이콘</div>
+                                    <p class="s_date">2023.09</p>
+                                    <p class="b_date">29</p>
+                                </div>
+                                <p class="date_right_txt"><a href="#" class="box_title">
+                                        조사 결과를 바탕으로 시청자가 직접 선정한
+                                        2023년 3/4분기 1채널 1우수프로그램 안내
+                                    </a>
+                                </p>
+                            </div>
+                            <ul class="box_list_ul">
+                                <li class="box_list_li">
+                                    <a href="#" class="list_sub_wrap">
+                                        <span class="sub_tit">· 5G시대, 망 중립성 정책방향에 대한 의견</span>
+                                        <span class="sub_date">2023.08.30</span>
+                                    </a>
+                                </li>
+                                <li class="box_list_li">
+                                    <a href="#" class="list_sub_wrap">
+                                        <span class="sub_tit">· ‘경제사회노동위원회’ 공동토론회</span>
+                                        <span class="sub_date">2023.07.24</span>
+                                    </a>
+                                </li>
+                                <li class="box_list_li">
+                                    <a href="#" class="list_sub_wrap">
+                                        <span class="sub_tit">· 「대한민국 마케팅Fair」개최 안내</span>
+                                        <span class="sub_date">2023.07.18</span>
+                                    </a>
+                                </li>
+                                <li class="box_list_li">
+                                    <a href="#" class="list_sub_wrap">
+                                        <span class="sub_tit">· 제 21회 방송 기술대상 모집공고</span>
+                                        <span class="sub_date">2023.07.11</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sec_bot_box">
+                        <div class="bott_box_top">
+                            <p class="bott_box_tit">동향자료</p>
+                        </div>
+                        <div class="bott_box_bottom">
+                            <div class="bott_img_wrap">
+                                <div class="bott_img_bg f_s_0">표지이미지 배경</div>
+                                <div class="bott_img">
+                                    <img src="img/main/pub_img.jpg" alt="동향자료 이미지" />
+                                </div>
+                            </div>
+                            <ul class="bott_txt_wrap">
+                                <li class="bott_pub_tit">개인주도 데이터 유통 활성화를 위한 제도 연구</li>
+                                <li class="bott_pub_txt"><span class="bot_in_tit">분</span>류 : <span class="pub_in">보고서</span></li>
+                                <li class="bott_pub_txt">연구기관 : <span class="pub_in">OOO연구원</span></li>
+                                <li class="bott_pub_txt"><span class="bot_in_tit">저</span>자 : <span class="pub_in">홍길동 외 4명</span></li>
+                                <li class="m_btn_wrap">
+                                    <a href="#" class="m_btn_base"><span class="m_btn_af">바로가기</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sec_bot_box">
+                        <div class="bott_box_top">
+                            <p class="bott_box_tit">발간물</p>
+                        </div>
+                        <div class="bott_box_bottom">
+                            <div class="bott_img_wrap">
+                                <div class="bott_img_bg f_s_0">표지이미지 배경</div>
+                                <div class="bott_img">
+                                    <img src="img/main/pub_img_2.jpg" alt="발간 이미지" />
+                                </div>
+                            </div>
+                            <ul class="bott_txt_wrap">
+                                <li class="bott_pub_tit">이용자 기반 보호 환경 조성 총괄 보고서</li>
+                                <li class="bott_pub_txt"><span class="bot_in_tit">분</span>류 : <span class="pub_in">연구보고서</span></li>
+                                <li class="bott_pub_txt">주관기관 : <span class="pub_in">OOO위원회</span></li>
+                                <li class="bott_pub_txt">연구기관 : <span class="pub_in">OOO연구원</span></li>
+                                <li class="m_btn_wrap">
+                                    <a href="#" class="m_btn_base"><span class="m_btn_af">바로가기</span></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+
+        <!-- footer : banner, copyright -->
+        <footer id="footer">
+            <div class="footer_banner">
+                <div class="center">
+                    <p>배너모음</p>
+                    <div class="f_b_btn">
+                        <a href="javascript:void(0)" title="일시정지" class="f_b_btn_stop f_s_0">일시정지</a>
+                        <a href="javascript:void(0)" title="재생" class="f_b_btn_play f_s_0">재생</a>
+                    </div>
+                    <div class="f_b_wrap">
+                        <div class="f_b_slide">
+                            <div class="f_b_item">
+                                <a href="http://naver.com" target="_blank">네이버</a>
+                            </div>
+                            <div class="f_b_item">
+                                <a href="http://google.com" target="_blank">구글</a>
+                            </div>
+                            <div class="f_b_item">
+                                <a href="https:/https://www.daum.net" target="_blank">다음</a>
+                            </div>
+                            <div class="f_b_item">
+                                <a href="https://www.youtube.com" target="_blank">유튜브</a>
+                            </div>
+                            <div class="f_b_item">
+                                <a href="https://www.koreaisacademy.com" target="_blank">코리아IT아카데미</a>
+                            </div>
+                            <div class="f_b_item">
+                                <a href="https://www.facebook.com" target="_blank">페이스북</a>
+                            </div>
+                            <div class="f_b_item">
+                                <a href="https://www.instagram.com" target="_blank">인스타그램</a>
+                            </div>
+                            <div class="f_b_item">
+                                <a href="https://www.daejeon.go.kr/" target="_blank">대전광역시</a>
+                            </div>
+                            <div class="f_b_item">
+                                <a href="https://www.sejong.go.kr/index.jsp" target="_blank">세종특별시</a>
+                            </div>
+                            <div class="f_b_item">
+                                <a href="https://www.chungbuk.go.kr/www/index.do" target="_blank">충북도청</a>
+                            </div>
+                            <div class="f_b_item">
+                                <a href="http://www.chungnam.go.kr/main.do" target="_blank">충청남도</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--center_end-->
+            </div>
+            <!--footer_banne-end-->
+            <div class="footer_copyright">
+                <div class="center">
+                    <div class="foot_left">
+                        <a href="#"><img src="img/sub/footer_logo_1.png" alt="푸터 로고" /></a>
+                    </div>
+                    <div class="foot_right">
+                        <p>
+                            <span>(35234) 대전 서구 둔산로 52 미라클빌딩 3층 </span><span>TEL : 042-369-5890</span>
+                        </p>
+                        <span class="copy">copyright ⓒ 2015 KOREA INFORMATION TECHNOLOGY ACADEMY. ALL RIGHTS RESERVED</span>
+                    </div>
+                </div>
+                <!--center_end-->
+            </div>
+            <!--footer_copyright-end-->
+        </footer>
+    </div>
+    <!--wrap-end-->
+</body>
+
+</html>
