@@ -121,3 +121,26 @@
 .info_3_wrap .info_con .info_li .info_3_tit{font-size: 24px;color: #276ec0;}
 .info_3_wrap .info_con .info_li .info_3_sub_tit{font-size: 20px;color: #666;padding: 10px 0 30px 0;}
 .info_3_wrap .info_con .info_li .info_3_txt{word-break: keep-all;padding: 0 300px;line-height: 190%;}
+
+/* 발간물 */
+.publish_wrap{overflow: hidden;}
+.pub_item_wrap{width: calc(50% - 9px);float: left;margin-bottom: 18px;}
+.pub_item_wrap:nth-child(2n-1){margin-right: 18px;}
+.pub_item_wrap .item{ padding: 30px;padding-left: 190px;position: relative;width: 100%;min-height: 254px;margin: 0; border: 1px solid #d7d7d7;}
+.item_img_box{width: 130px;height: 190px;position: absolute;top: 50%;margin-top: -95px; left: 30px;border: 1px solid #e3e3e3;overflow: hidden;text-align: center;}
+.item_img_box img{width: 100%;}
+.item_img_box .card_new{position: absolute;top: 0;left: 0;background-color: #ff853b;width: 30px;height: 30px;padding-top: 4px;}
+.item_img_box .card_new .n_img{width: 9px;height: 8px;}
+.card_title{ font-size: 20px;line-height: 24px;display: block;margin-left: -1px;min-height: 48px;}
+.card_list_ul{margin-top: 13px;}
+.card_list_ul li{margin-bottom: 5px;min-height: 22px;color: #606060;line-height: 1.2;}
+.card_list_ul li .space{margin-right: 31px;}
+.small_title::before{content: "";border-radius: 50%;background: #545454; width: 4px;height: 4px;display: inline-block;margin-bottom: 3px;margin-right: 10px;}
+.small_title::after{content: ""; width: 1px;height: 13px;display: inline-block;background-color: #606060;margin: 0 10px;}
+.pub_down_wrap{position: absolute;bottom: 30px;font-size: 0;}
+.pub_down_wrap .btn_base_2{padding: 10px 15px;padding-left: 40px;border: 1px solid #f2f2f2;border-bottom: 1px solid #b2b2b2;font-size: 17px;margin-left: 3px;}
+.down_btn{height: 40px;background: url(../img/sub/icon_download.png) no-repeat;background-size: 22px;background-position-x: 14px;background-position-y: 8px;font-weight: 700;}
+.pre_btn{height: 40px;background: url(../img/sub/icon_pub_preview.png) no-repeat;background-size: 20px;background-position-x: 16px;background-position-y: 7px;font-weight: 700;}
+
+.down_btn:hover{background: url('../img/sub/icon_download_hover.png') no-repeat;background-position-x: 14px;background-position-y: 8px;background-color: #000;border: 1px solid #000;color: #fff;}
+.pre_btn:hover{background: url('../img/sub/icon_pub_preview_ho.png') no-repeat;background-position-x: 16px;background-position-y: 7px;background-color: #000;border: 1px solid #000;color: #fff;}

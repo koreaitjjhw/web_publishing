@@ -1,5 +1,9 @@
 @charset "utf-8";
 
+@import url("common.css");
+@import url("main.css");
+@import url("sub.css");
+@import url("popup.css");
 
 .wrap{ width: 100%; min-height:100%; padding-bottom: 183px; /* padding-bottom : footer height */ box-sizing:border-box;padding-top: 100px;position: relative; }
 .center{ width:1600px; margin:0 auto; display:block;  }
